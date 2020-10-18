@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Coding Tutorials</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" href="mystyles.css"> -->
+
+    <!-- external CSS style sheet -->
+    <link rel="stylesheet" href="newstylesheet.css">
+  </head>
+
+  <body>
+  <!-- container class for the body -->
+  <div class="container-fluid pt-20">
+    <div class="row font" style="background: #000000; padding: -20px; font-size:1.5em">
+      <div class="col-xl-12">
+        <!-- nav bar -->
+        <nav class="navbar navbar-expand-md">
+
+          <a class="navbar-brand font" href="#home" style="color:#ffffff; padding-right:100px"><strong>{/} Coding Tutorials</strong></a>
+
+          <!-- collapsable nav bar when screen is small -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"><img src="https://www.dosgamers.com/images/mobile-menu.png" alt="Scroll bar"
+            style="width:30px;height:30px" /></span>
+          </button>
+
+          <!-- nav bar content -->
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav dropdown-content" style="margin-top: 10px; margin-bottom: 10px">
+              <!-- for python tab -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#python" data-toggle="dropdown"
+                style="text-align:center; padding-right:20px; color:#ffffff; font-size:0.65em">Python</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#lesson1">Lesson 1: Python (Essentials)</a>
+                  <a class="dropdown-item" href="#lesson2">Lesson 2: Python Essentials Pt. 2</a>
+                  <a class="dropdown-item" href="#lesson3">Lesson 3: Python Essentials Pt. 3</a>
+                </div>
+              </li>
+              <!-- for java tab -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#java" data-toggle="dropdown"
+                style="text-align:center; padding-right:20px; color:#ffffff; font-size:0.65em">Java</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#lesson4">Lesson 4: Intro to Java</a>
+                  <a class="dropdown-item" href="#lesson5">Lesson 5: Java Continued</a>
+                  <a class="dropdown-item" href="#lesson6">Lesson 6: Java Continued -- All About Arrays</a>
+                  <a class="dropdown-item" href="#lesson7">Lesson 7: The End of Java (for now)</a>
+                </div>
+              </li>
+              <!-- for html tab -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#html" data-toggle="dropdown"
+                style="text-align:center; padding-right:20px; color:#ffffff; font-size:0.65em">HTML</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#lesson8">Lesson 8: The Beginning of HTML</a>
+                  <a class="dropdown-item" href="#lesson9">Lesson 9: Continuation of HTML</a>
+                </div>
+              </li>
+              <!-- for css/bootstrap4 tab - disabled -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle disabled" href="#css/bs4" data-toggle="dropdown"
+                style="text-align:center; padding-right:20px; color:#ffffff; font-size:0.65em">CSS/Bootstrap4</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- search bar - doesn't yet work -->
+          <form class="form-inline" action="index.html" method="post">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-success" type="submit" style="background-color:#000000; border-color:#ffffff">Search</button>
+          </form>
+        </nav>
+
+      </div>
+
+    </div>
+
+    <!-- big, flashy mission statement w/ cool background -->
+    <div class="row" style="background-image: url(https://wallpapertag.com/wallpaper/full/7/1/f/248315-gorgerous-coding-background-1920x1080.jpg)">
+      <!-- for spacing -->
+      <div class="col-xl-2">
+
+      </div>
+      <!-- mission statement content -->
+      <div class="col-xl-8" style="text-align:center; padding:100px; color:#ffffff">
+        <h2>Welcome to Code Tutorials!</h2>
+        This webpage is made with the purpose of making available the various lessons released by <strong>The Bishop's School Coding Club</strong>.
+        We're extremely excited for this because now we've got an "official" webpage! Doesn't look as great as some other clubs' pages but that's
+        because we didn't use a premade webpage tool like Wix. Instead, we used Bootstrap4, which we will soon be covering in the Bootstrap4 tab!
+      </div>
+      <!-- for spacing -->
+      <div class="col-xl-2">
+
+      </div>
+    </div>
+
+    <!-- heading for the grid section -->
+    <div class="row" style="background-color:#000000">
+      <div class="col-xl-2">
+
+      </div>
+
+      <div class="col-xl-8" style="padding:40px 100px 5px 100px; color:#ffffff; text-align:center">
+        <h3>Lesson Structures</h3>
+        Each lesson is formatted to contain various sections of content. Some lessons contain several unrelated sections, while others are hyper-
+        focused on one specific topic. Below are links to the full lessons--unedited, PDF versions.
+      </div>
+
+      <div class="col-xl-2">
+
+      </div>
+    </div>
+
+    <!-- grid section containing the pdfs of each published lesson -->
+    <div class="row" style="background-color:#000000; padding:40px">
+      <!-- link to lesson 9 -->
+      <div class="col-xl-4" style="text-align:center; color:#ffffff">
+        <a href="Ninth Lesson_ Continuation of HTML.pdf">
+          <img class="img-fluid mx-auto d-block img-thumbnail" src="http://images5.alphacoders.com/423/423148.jpg"
+          alt="img" width="500" height="300"/>
+        </a>
+        Lesson 9: Continuation of Java
+      </div>
+      <!-- link to lesson 8 -->
+      <div class="col-xl-4" style="text-align:center; color:#ffffff">
+        <a href="Eighth Lesson_ HTML.pdf">
+          <img class="img-fluid mx-auto d-block img-thumbnail" src="https://mdelamata.files.wordpress.com/2013/12/work_banner.jpg"
+          alt="img" width="500" height="300"/>
+        </a>
+        Lesson 8: The Beginning of HTML
+      </div>
+      <!-- link to lesson 7 -->
+      <div class="col-xl-4" style="text-align:center; color:#ffffff">
+        <a href="Seventh Lesson.pdf">
+          <img class="img-fluid mx-auto d-block img-thumbnail" src="https://i.redd.it/vqk5x5qs3wt11.png"
+          alt="img" width="500" height="300"/>
+        </a>
+        Lesson 7: The End of Java
+      </div>
+      <!-- link to lesson 6 -->
+      <div class="col-xl-4" style="text-align:center; color:#ffffff">
+        <a href="Sixth Lesson_ Arrays (1).pdf">
+          <img class="img-fluid mx-auto d-block img-thumbnail" src="https://comewagalong.com/wp-content/uploads/2013/08/Work-Like-a-Dog-Day-Dog-on-Computer.jpg"
+          alt="img" width="500" height="300"/>
+        </a>
+        Lesson 6: Java Continued -- All About Arrays
+      </div>
+      <!-- link to lesson 5 -->
+      <div class="col-xl-4" style="text-align:center; color:#ffffff">
+        <a href="Fifth Lesson_ Continuation of Java.pdf">
+          <img class="img-fluid mx-auto d-block img-thumbnail" src="https://cdn.wallpapersafari.com/9/89/Azsnx1.jpg"
+          alt="img" width="500" height="300"/>
+        </a>
+        Lesson 5: Java Continued
+      </div>
+      <!-- link to lesson 4 -->
+      <div class="col-xl-4" style="text-align:center; color:#ffffff">
+        <a href="Fourth Lesson_ Intro to Java.pdf">
+          <img class="img-fluid mx-auto d-block img-thumbnail" src="http://getwallpapers.com/wallpaper/full/2/9/7/492150.jpg"
+          alt="img" width="500" height="300"/>
+        </a>
+        Lesson 4: Intro to Java
+      </div>
+      <!-- link to lesson 3 -->
+      <div class="col-xl-4" style="text-align:center; color:#ffffff">
+        <a href="Third Lesson_ Python Basics Continued.pdf">
+          <img class="img-fluid mx-auto d-block img-thumbnail" src="https://cdn.wallpapersafari.com/92/4/UghDYj.jpg"
+          alt="img" width="500" height="300"/>
+        </a>
+        Lesson 3: Python Essentials (Pt. 3)
+      </div>
+      <!-- link to lesson 2 -->
+      <div class="col-xl-4" style="text-align:center; color:#ffffff">
+        <a href="Second Lesson_ Python Basics Continued.pdf">
+          <img class="img-fluid mx-auto d-block img-thumbnail" src="http://getwallpapers.com/wallpaper/full/0/4/4/358716.jpg"
+          alt="img" width="500" height="300"/>
+        </a>
+        Lesson 2: Python Essentials (Pt. 2)
+      </div>
+      <!-- link to lesson 1 -->
+      <div class="col-xl-4" style="text-align:center; color:#ffffff">
+        <a href="First Lesson_ Python Essential Basics (1).pdf">
+          <img class="img-fluid mx-auto d-block img-thumbnail" src="https://i.ytimg.com/vi/Chz9mwBCAJo/maxresdefault.jpg"
+          alt="img" width="500" height="300"/>
+        </a>
+        Lesson 1: Python Essentials
+      </div>
+    </div>
+
+  </div>
+  </body>
+</html>
