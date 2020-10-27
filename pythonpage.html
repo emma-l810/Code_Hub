@@ -93,6 +93,29 @@
 
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-xl-12">
+        <a onclick="showhidden()"><strong>Setting Up</strong></a>
+      </div>
+      <div class="col-xl-12" id="operations" style="display:none">
+        If you decide to download Python and access it through the command prompt, you need to download <a href="https://atom.io/">Atom</a>, a very
+        friendly text editor compatible with many different programming languages (it will be useful down the line when we start with HTML). You can
+        write programs using Atom, run it through command prompt, and save files. It’s handy.<br>
+
+
+        <br>To create a python program in the command prompt, you enter atom _programname_.py. The “.py” indicates that you are creating a Python file
+        —this is very important to remember because what follows the “.” will change depending on the language! Last note: if you choose to code
+        directly into the command prompt, your code will not be saved; it’s good for testing things or try out new concepts, but projects ought to be
+        done in a file through a text editor where your progress can be saved.
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      function showhidden(){
+        document.getElementById("operations").style.display = "block";
+      }
+    </script>
   </div>
   </body>
 </html>
