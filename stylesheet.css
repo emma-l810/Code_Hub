@@ -1,10 +1,16 @@
-.textcenter{
-  text-align: center;
-}
-
 .gridtheme{
   text-align:center;
   color:#ffffff;
+}
+
+.navbartheme{
+  padding-right:20px;
+  font-size:0.65em;
+}
+
+/* doesn't working */
+.textpadding{
+  padding: 40px 100px 40px 100px;
 }
 
 .center{
@@ -14,4 +20,12 @@
   left: 50%;
   -ms-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
+}
+
+/* doesn't work */
+.biotheme{
+  text-align:center;
+  color:#ffffff;
+  display:none;
+  padding:40px 100px 40px 100px;
 }
